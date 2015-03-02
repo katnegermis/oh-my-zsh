@@ -1,4 +1,4 @@
-local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ %s)"
+local ret_status="%(?:%{$fg_bold[green]%}~ :%{$fg_bold[red]%}~ %s)"
 PROMPT='%n $(virtualenv_prompt_info)$(git_prompt_info)${ret_status}%{$reset_color%}'
 
 # show time in right side
